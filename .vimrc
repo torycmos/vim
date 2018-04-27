@@ -232,7 +232,7 @@ inoremap jk <ESC>
 inoremap jp <c-r>+
 
 "save whenever you switch wandows
-au FocusLost * :wa
+au BufLeave,FocusLost * silent! wall
 au VimEnter * RainbowParenthesesToggle
 
 
