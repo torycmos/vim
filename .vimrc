@@ -150,6 +150,12 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 
+" move windows around with ctrl-shift-arrow
+nnoremap <C-S-Left> <C-w>H
+nnoremap <C-S-Right> <C-w>L
+nnoremap <C-S-Up> <C-w>K
+nnoremap <C-S-Down> <C-w>J
+
 ",v to split into a new window vertically
 nnoremap <leader>v <C-w>v<C-w>l
 ",s to split horizontally
