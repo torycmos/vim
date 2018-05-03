@@ -114,6 +114,7 @@ set guioptions-=T                  " don't show toolbar
 
 let NERDTreeBookmarksFile=expand('~/.vim/NERDTreeBookmarks')
 let mapleader=","
+let g:session_autosave = 'no'
 
 " change leader and remap backwards-char-search (,) to old leader (\)
 " (doesn't really work well this way, just makes \ also mapleader)
