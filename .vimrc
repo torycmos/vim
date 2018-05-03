@@ -112,7 +112,7 @@ set viminfo=%,<800,'10,/50,:100,h,f0,n~/.vim/viminfo
 set guioptions-=e                  " use term-style tabs
 set guioptions-=T                  " don't show toolbar
 
-let NERDTreeBookmarksFile=~/.vim/NERDTreeBookmarks
+let NERDTreeBookmarksFile=expand('~/.vim/NERDTreeBookmarks')
 let mapleader=","
 
 " change leader and remap backwards-char-search (,) to old leader (\)
